@@ -1,0 +1,33 @@
+#main-content,
+.exposed input {
+  background-color: white !important;
+  font-size: 35px;
+}
+
+.exposed {
+  width: 30%;
+  padding-top: 20px;
+  position: sticky !important;
+  top: 0px;
+  background-color: white;
+  z-index: 10000;
+}
+
+.view-content {
+  margin-top: 150px;
+}
+
+#edit-submit-vocabulary {
+  background-color: black !important;
+}
+
+@media (min-width: 768px) {
+  #main-content,
+  .exposed input {
+    font-size: 20px;
+  }
+
+  .view-content {
+    margin-top: 90px;
+  }
+}
